@@ -1,0 +1,12 @@
+body {
+  color: #736150;
+  font-family: 'Rock Salt'; }
+
+.campaign-public-layout .reveal-modal {
+  /* background: url(http://orig12.deviantart.net/16b6/f/2008/126/8/4/paper_by_struckdumb.jpg); */
+  background: url(http://img12.deviantart.net/4c68/i/2003/46/e/8/old_paper.jpg); }
+.campaign-public-layout #content, .campaign-public-layout #fancybox-outer {
+  /* background: url(http://orig12.deviantart.net/16b6/f/2008/126/8/4/paper_by_struckdumb.jpg); */
+  background: url(http://img12.deviantart.net/4c68/i/2003/46/e/8/old_paper.jpg); }
+.campaign-public-layout .main-content .post-main.post-section {
+  background: none; }

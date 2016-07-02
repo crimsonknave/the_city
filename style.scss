@@ -1,0 +1,44 @@
+$main: #282f38;
+
+$tan: #ceb67e;
+$dark_blue: #18212b;
+$brown: #736150;
+$steel: #566881;
+$grey: #8c9fa6;
+$blue: #36565d;
+$lavendar: #787eac;
+$red: #ab4a43;
+$green: #52645f;
+
+@mixin parchment {
+  /* background: url(http://orig12.deviantart.net/16b6/f/2008/126/8/4/paper_by_struckdumb.jpg); */
+  background: url(http://img12.deviantart.net/4c68/i/2003/46/e/8/old_paper.jpg);
+}
+
+@mixin handwritten($important: false, $size: false) {
+  @if $size { font-size: $size; }
+  @if $important {
+    color: $brown !important;
+  } @else {
+    color: $brown;
+  }
+  font-family: 'Rock Salt';
+}
+
+body {
+  @include handwritten
+}
+
+.campaign-public-layout {
+  .reveal-modal {
+    @include parchment;
+  }
+  #content, #fancybox-outer {
+    @include parchment;
+  }
+  .main-content {
+    .post-main.post-section {
+      background: none;
+    }
+  }
+}
